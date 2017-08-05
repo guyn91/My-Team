@@ -9,18 +9,31 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/signUp.css">
 
 </head>
 <body dir="rtl">
 
-    <div>
-        <h1>הרשמה ל-MyTeam</h1>
-    </div>
+    <h1 align="center">הרשמה - MyTeam</h1>
 
-    <div>
-        <p>כתובת אימייל:</p>
-        <p>בחר סיסמא:</p>
-    </div>
+    <form action="">
+        <div class="container">
+            <label><b>כתובת אי-מייל:</b></label>
+            <input type="text" placeholder="הכנס כתובת אי-מייל" name="email" required>
+
+            <label><b>סיסמא:</b></label>
+            <input type="password" placeholder="בחר סיסמא" name="psw" required>
+
+            <label><b>חזור על הסיסמא:</b></label>
+            <input type="password" placeholder="חזור על הסיסמא" name="psw-repeat" required>
+            <input type="checkbox" checked="checked"> זכור אותי
+
+            <div class="clearfix">
+                <button type="submit" class="signupbtn">הירשם</button>
+                <button type="button" class="cancelbtn"><a href="index.html">חזור</a></button>
+            </div>
+        </div>
+    </form>
 
     <script type="text/javascript" src="cordova.js"></script>
     <script src="scripts/jquery-3.1.1.min.js"></script>

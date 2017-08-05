@@ -35,16 +35,13 @@ li a:visited {
 
 h1 {
     font-size: 400%;
-    position: absolute;
-    bottom: 60px;
-    left: 72px;
     font-family: serif;
 }
 
 img {
-    height: 230px;
-    width: 230px;
+    height: 220px;
+    width: 220px;
     position: absolute;
-    top: 150px;
+    top: 200px;
     right: 50px;
 }
