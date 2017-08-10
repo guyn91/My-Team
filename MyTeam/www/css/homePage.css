@@ -75,15 +75,16 @@ img {
     top: 240px;
 }
 
-button {
+#logout {
     background-color: #521414;
     color: white;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 8px;
     position: absolute;
     left: 40px;
     bottom: 200px;
-    padding: 6px 4px;
+    width: 70px;
+    height: 45px;
 }
 
 a {

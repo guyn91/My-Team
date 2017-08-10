@@ -1,2 +1,46 @@
 ﻿body {
+    background-color: #ff9966;
+}
+
+h1 {
+    font-family: serif;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    float: right;
+    margin: 15px;
+}
+
+.plus {
+    border-radius: 50%;
+}
+
+button {
+    background-color: #521414;
+    border-style: solid;
+    border-radius: 8px;
+    position: absolute;
+    width: 70px;
+    height: 45px;
+}
+
+#back {
+    left: 40px;
+    top: 15px;
+}
+
+#logout {
+    left: 40px;
+    bottom: 200px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
 }
