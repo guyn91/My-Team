@@ -1,0 +1,95 @@
+﻿body {
+    background-color: #a42828;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    width: 25%;
+    margin: 2.6%;
+    background-color: #ff5500;
+    border-style: ridge;
+    border-radius: 16px;
+}
+
+    li a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+    }
+
+#newGame {
+    background-color: #e64d00;
+}
+
+#stats {
+    background-color: #cc4400;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    -webkit-animation: rotation 4s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+#basket1 {
+    position: absolute;
+    left: 70px;
+    top: 110px;
+}
+
+#basket2 {
+    position: absolute;
+    right: 64px;
+    top: 110px;
+}
+
+#basket3 {
+    position: absolute;
+    left: 70px;
+    top: 240px;
+}
+
+#basket4 {
+    position: absolute;
+    right: 64px;
+    top: 240px;
+}
+
+button {
+    background-color: #521414;
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 40px;
+    bottom: 200px;
+    padding: 6px 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}

@@ -1,4 +1,12 @@
-﻿form {
+﻿a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+form {
     border: 3px solid #f1f1f1;
 }
 
@@ -39,6 +47,7 @@ button {
 img.basketball {
     width: 40%;
     border-radius: 50%;
+    -webkit-animation: rotation 4s infinite linear;
 }
 
 .container {
@@ -50,10 +59,12 @@ span.psw {
     padding-top: 16px;
 }
 
-#back {
-    text-decoration: none;
-}
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
 
-a#back:visited {
-    color: white;
+    to {
+        -webkit-transform: rotate(359deg);
+    }
 }
