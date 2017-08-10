@@ -7,50 +7,42 @@ ul {
 
 li {
     float: right;
-    width: 50%;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
+    width: 35%;
+    margin: 5%;
+    background-color: #ff5500;
+    border-style: ridge;
+    border-radius: 16px;
 }
 
     li a {
         display: inline-block;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
         color: white;
+        text-decoration: none;
     }
 
 li a:visited {
     color: white;
 }
 
-#signin {
-    background-color: #666666;
-}
-
-#signup {
-    background-color: #333333;
-}
-
 h1 {
-    font-size: 400%;
+    font-size: 350%;
     font-family: serif;
+    position: absolute;
+    top: 75px;
+    left: 90px;
 }
 
-#basketball {
+img {
     height: 220px;
     width: 220px;
     position: absolute;
     top: 200px;
     right: 50px;
-    -webkit-animation: rotation 4s infinite linear;
 }
 
-@-webkit-keyframes rotation {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-
-    to {
-        -webkit-transform: rotate(359deg);
-    }
+#signup {
+    background-color: #cc4400;
 }
