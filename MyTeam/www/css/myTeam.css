@@ -24,6 +24,7 @@ button {
     position: absolute;
     width: 70px;
     height: 45px;
+    cursor: pointer;
 }
 
 #back {

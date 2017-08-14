@@ -85,6 +85,7 @@ img {
     bottom: 200px;
     width: 70px;
     height: 45px;
+    cursor: pointer;
 }
 
 a {

@@ -18,18 +18,27 @@
 
     <form action="">
         <div class="container">
+            <label><b>שם הקבוצה:</b></label>
+            <input type="text" name="teamname" required />
+
+            <label><b>שם המאמן:</b></label>
+            <input type="text" name="coach" required />
+
+            <label><b>כתובת אולם ביתי:</b></label>
+            <input type="text" name="arena" required />
+
             <label><b>כתובת אי-מייל:</b></label>
-            <input type="text" placeholder="הכנס כתובת אי-מייל" name="email" required>
+            <input type="text" name="email" required>
 
             <label><b>סיסמא:</b></label>
-            <input type="password" placeholder="בחר סיסמא" name="psw" required>
+            <input type="password" name="psw" required>
 
             <label><b>חזור על הסיסמא:</b></label>
-            <input type="password" placeholder="חזור על הסיסמא" name="psw-repeat" required>
+            <input type="password" name="psw-repeat" required>
             <input type="checkbox" checked="checked"> זכור אותי
 
             <div class="clearfix">
-                <button type="submit" class="signupbtn">הירשם</button>
+                <button type="submit" class="signupbtn"><a href="homePage.html">הירשם</a></button>
                 <button type="button" class="cancelbtn"><a href="index.html">חזור</a></button>
             </div>
         </div>
