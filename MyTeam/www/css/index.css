@@ -1,3 +1,7 @@
+body {
+    background-image: url(/www/images/ball_floor.png);
+}
+
 button {
     margin: 30px;
     float: right;
@@ -25,19 +29,29 @@ a:visited {
 }
 
 h1 {
-    font-size: 350%;
+    font-size: 320%;
     font-family: serif;
+    color: blanchedalmond;
     position: absolute;
-    top: 75px;
-    left: 90px;
+    top: 95px;
+    right: 85px;
+}
+
+p {
+    position: absolute;
+    top: 210px;
+    font-family: serif;
+    font-size: 170%;
+    color: antiquewhite;
+    font-weight: bold;
 }
 
 img {
-    height: 220px;
-    width: 220px;
+    height: 105px;
+    width: 105px;
     position: absolute;
-    top: 200px;
-    right: 50px;
+    top: 315px;
+    right: 125px;
     -webkit-animation: rotation 4s infinite linear;
 }
 

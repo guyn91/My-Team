@@ -1,2 +1,33 @@
 ﻿body {
+    background-image: url(/www/images/court.png);
+}
+
+h {
+    font-family: serif;
+    color: antiquewhite;
+    font-size: 250%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+label {
+    font-family: 'Varela Round', sans-serif;
+}
+
+button {
+    background-color: #521414;
+    border-style: solid;
+    border-radius: 8px;
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.container {
+    padding: 16px;
+    color: antiquewhite;
 }

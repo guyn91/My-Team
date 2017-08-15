@@ -15,6 +15,34 @@
 
 <body dir="rtl">
 
+    <h1 align="center">משחק חדש</h1>
+    <h3>יש למלא את פרטי המשחק המיועד</h3>
+
+    <form action="">
+        <div class="container">
+            <label><b>שם הקבוצה היריבה:</b></label>
+            <input type="text" name="oppTeam" required />
+
+            <label><b>משחק בית/חוץ:</b></label>
+            <select name="homeOrAway">
+            <option value="home">בית</option>
+            <option value="away">חוץ</option></select>
+
+            <label><b>אולם מארח:</b></label>
+            <input type="text" name="arena" required />
+
+            <label><b>תאריך משחק:</b></label>
+            <input type="date" name="matchDate" required>
+
+            <label><b>שעת פתיחה:</b></label>
+            <input type="time" name="matchTime">
+
+            <div class="clearfix">
+                <button type="submit" class="save">שמור</button>
+                <button type="button" class="start">שמור והתחל</button>
+            </div>
+        </div>
+    </form>
 
     <script type="text/javascript" src="cordova.js"></script>
     <script src="scripts/jquery-3.1.1.min.js"></script>

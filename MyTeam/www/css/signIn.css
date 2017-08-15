@@ -1,4 +1,8 @@
-﻿a {
+﻿body {
+    background-image: url(/www/images/court.png);
+}
+
+a {
     text-decoration: none;
 }
 
@@ -52,6 +56,7 @@ img.basketball {
 
 .container {
     padding: 16px;
+    color: antiquewhite;
 }
 
 span.psw {

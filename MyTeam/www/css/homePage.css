@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #ff9966;
+    background-image: url(/www/images/court.png);
 }
 
 ul {
@@ -19,6 +19,7 @@ li {
     background-color: #ff5500;
     border-style: ridge;
     border-radius: 16px;
+    margin-top: 65px;
 }
 
     li a {
@@ -35,54 +36,14 @@ li {
     background-color: #cc4400;
 }
 
-img {
-    height: 100px;
-    width: 100px;
-    -webkit-animation: rotation 4s infinite linear;
-}
-
-@-webkit-keyframes rotation {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-
-    to {
-        -webkit-transform: rotate(359deg);
-    }
-}
-
-#basket1 {
-    position: absolute;
-    left: 70px;
-    top: 110px;
-}
-
-#basket2 {
-    position: absolute;
-    right: 64px;
-    top: 110px;
-}
-
-#basket3 {
-    position: absolute;
-    left: 70px;
-    top: 240px;
-}
-
-#basket4 {
-    position: absolute;
-    right: 64px;
-    top: 240px;
-}
-
 #logout {
     background-color: #521414;
     color: white;
     border-style: solid;
     border-radius: 8px;
     position: absolute;
-    left: 40px;
-    bottom: 200px;
+    left: 50px;
+    bottom: 50px;
     width: 70px;
     height: 45px;
     cursor: pointer;

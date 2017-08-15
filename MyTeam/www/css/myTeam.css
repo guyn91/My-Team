@@ -1,19 +1,25 @@
 ﻿body {
-    background-color: #ff9966;
+    background-image: url(/www/images/court.png);
 }
 
 h1 {
     font-family: serif;
+    color: antiquewhite;
+    font-size: 250%;
 }
 
-img {
-    height: 80px;
-    width: 80px;
+.jersey {
+    height: 65px;
+    width: 65px;
     float: right;
     margin: 15px;
 }
 
 .plus {
+    height: 65px;
+    width: 65px;
+    float: right;
+    margin: 15px;
     border-radius: 50%;
 }
 
@@ -29,12 +35,21 @@ button {
 
 #back {
     left: 40px;
-    top: 15px;
+    bottom: 120px;
+}
+
+.edit {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 30px;
 }
 
 #logout {
     left: 40px;
-    bottom: 200px;
+    bottom: 60px;
 }
 
 a {
