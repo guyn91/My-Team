@@ -16,31 +16,26 @@
 <body dir="rtl">
 
     <h1 align="center">משחק חדש</h1>
-    <h3>יש למלא את פרטי המשחק המיועד</h3>
+    <h3 align="center">יש למלא את פרטי המשחק המיועד</h3>
 
     <form action="">
         <div class="container">
-            <label><b>שם הקבוצה היריבה:</b></label>
-            <input type="text" name="oppTeam" required />
+            <label><b>קבוצה יריבה:</b></label>
+            <input type="text" name="opponent" required />
 
             <label><b>משחק בית/חוץ:</b></label>
             <select name="homeOrAway">
-            <option value="home">בית</option>
-            <option value="away">חוץ</option></select>
-
-            <label><b>אולם מארח:</b></label>
-            <input type="text" name="arena" required />
+                <option value="home">בית</option>
+                <option value="away">חוץ</option>
+            </select>
 
             <label><b>תאריך משחק:</b></label>
-            <input type="date" name="matchDate" required>
+            <input type="date" name="matchDate" required />
 
-            <label><b>שעת פתיחה:</b></label>
-            <input type="time" name="matchTime">
+            <label><b>שעת משחק:</b></label>
+            <input type="time" name="matchTime" />
 
-            <div class="clearfix">
-                <button type="submit" class="save">שמור</button>
-                <button type="button" class="start">שמור והתחל</button>
-            </div>
+            <button type="submit">שמור</button>
         </div>
     </form>
 

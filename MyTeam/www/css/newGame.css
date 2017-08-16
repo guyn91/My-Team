@@ -2,15 +2,29 @@
     background-image: url(/www/images/court.png);
 }
 
-h {
+h1 {
     font-family: serif;
     color: antiquewhite;
     font-size: 250%;
 }
 
-span.psw {
-    float: right;
-    padding-top: 16px;
+h3 {
+    font-family: serif;
+    color: antiquewhite;
+    font-size: 150%;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 label {
@@ -18,13 +32,13 @@ label {
 }
 
 button {
-    background-color: #521414;
-    border-style: solid;
-    border-radius: 8px;
-    position: absolute;
-    width: 70px;
-    height: 45px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
     cursor: pointer;
+    width: 100%;
 }
 
 .container {
