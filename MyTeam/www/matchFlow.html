@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://cordovahostedweb-starter.azurewebsites.net https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/matchFlow.css">
+
+</head>
+
+<body dir="rtl">
+
+    <p id="clock">5:36</p>
+
+    <div id="scorePanel">
+        <p class="score">אשדוד   20</p>
+        <p class="score">ת"א   31</p>
+    </div>
+
+    <div>
+        <button name="throw" id="throwBtn">זריקה</button>
+        <button name="rebound" id="reboundBtn">כדור חוזר</button>
+        <button name="foul" id="foulBtn">עבירה</button>
+        <button name="turnover" id="turnoverBtn">איבוד</button>
+        <button name="block" id="blockBtn">חסימה</button>
+        <button name="steal" id="stealBtn">חטיפה</button>
+        <button name="timeout" id="timeoutBtn">פסק זמן</button>
+        <button name="substitute" id="substituteBtn">חילוף</button>
+    </div>
+
+    <script type="text/javascript" src="scripts/matchFlow.js"></script>
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>

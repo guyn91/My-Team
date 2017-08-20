@@ -1,0 +1,49 @@
+﻿body {
+    background-image: url(/www/images/court.png);
+}
+
+#clock {
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 50%;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#scorePanel {
+    height: 75px;
+    width: 150px;
+    border-style: ridge;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.score {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+
+button {
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: crimson;
+    height: 50px;
+    width: 100px;
+    margin: 30px 30px;
+    clear: both;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 20%;
+}
