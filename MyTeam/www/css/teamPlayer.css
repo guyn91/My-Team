@@ -1,0 +1,31 @@
+﻿body {
+    background-image: url(/www/images/court.png);
+}
+
+h1 {
+    font-family: serif;
+    color: antiquewhite;
+    font-size: 250%;
+}
+
+img {
+    height: 100px;
+    width: 90px;
+}
+
+p {
+    clear: both;
+    color: white;
+    font-family: serif;
+    font-size: 25px;
+}
+
+#watchstats {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}

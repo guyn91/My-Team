@@ -38,15 +38,6 @@ button {
     bottom: 120px;
 }
 
-.edit {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    position: absolute;
-    right: 20px;
-    top: 30px;
-}
-
 #logout {
     left: 40px;
     bottom: 60px;

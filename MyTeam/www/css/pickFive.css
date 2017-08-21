@@ -1,0 +1,41 @@
+﻿body {
+    background-image: url(/www/images/court.png);
+}
+
+h1 {
+    font-family: serif;
+    color: antiquewhite;
+    font-size: 250%;
+}
+
+h3 {
+    font-family: serif;
+    color: antiquewhite;
+    font-size: 150%;
+}
+
+p {
+    width: 60%;
+    height: 22px;
+    color: white;
+    font-family: serif;
+    font-size: 18px;
+}
+
+#startmatch {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.play {
+    background-color: blue;
+}
+
+.dontplay {
+    background-color: brown;
+}

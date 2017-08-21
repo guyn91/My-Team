@@ -1,0 +1,18 @@
+﻿body {
+    background-image: url(/www/images/court.png);
+}
+
+h1 {
+    font-family: serif;
+    color: antiquewhite;
+    font-size: 250%;
+}
+
+p {
+    font-family: serif;
+    color: white;
+}
+
+select {
+    margin-bottom: 30px;
+}
